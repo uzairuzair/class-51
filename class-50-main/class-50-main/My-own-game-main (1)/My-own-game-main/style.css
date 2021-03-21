@@ -1,0 +1,67 @@
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   margin: 10px;
+  
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+.menu{
+display:flex;
+justify-content: space-between;
+background-color: #8690eb;
+padding: 15px;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: aqua;
+}
+
+body{
+margin: 0px;
+background-color: rgb(228, 52, 52);
+
+} 
+.grid img {
+  
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.oragami {
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding:30px;
+    margin:25px;
+    width:310px;
+    font-family: fantasy;
+
+}
